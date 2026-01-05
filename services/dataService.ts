@@ -4,20 +4,8 @@ import { DailyEdition } from '../types';
  * Data service to load daily editions from JSON files in the _data folder
  */
 
-// List of available dates (in production, this could be generated or fetched from an index)
-// List of available dates (Fallback)
-const FALLBACK_DATES = [
-    '2025-12-27',
-    '2025-12-25',
-    '2024-12-25',
-    '2024-12-24',
-    '2024-12-23',
-    '2024-12-22',
-    '2024-12-21',
-    '2024-12-20',
-    '2024-12-19',
-    '2024-12-18'
-];
+// List of available dates (Fallback - Empty for template)
+const FALLBACK_DATES: string[] = [];
 
 /**
  * Load a specific edition by date

@@ -1,7 +1,7 @@
 {
-  "name": "daily-pulse---curated-ai-feed",
-  "private": true,
-  "version": "0.0.0",
+  "name": "daily-ai-template",
+  "private": false,
+  "version": "1.0.0-template",
   "type": "module",
   "scripts": {
     "dev": "vite",
