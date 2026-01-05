@@ -1,58 +1,30 @@
-# Daily AI Template
+# Feed Template
 
 A generic, API-driven template for creating "Pulse-style" daily news apps.
-This project is designed to be automated via GitHub Actions and Webhooks.
-
-![Demo](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
+This template is ready for automation via GitHub Actions.
 
 ## Features
-- **PWA Ready**: Installable on mobile and desktop.
-- **API Driven**: Content is pushed via Webhook, not hardcoded.
-- **Offline Reading**: Tracks read status and saves progress.
-- **Social Sharing**: Generates beautiful share cards on the fly.
+- **PWA Ready**: Installable, offline-capable.
+- **API Driven**: Content driven by JSON payloads via Webhooks.
+- **Auto-Build**: GitHub Actions pipeline pre-configured.
 
-## 🚀 Setup Guide
+## 🚀 Setup
 
-### 1. Template Usage
-Clone this repository or use it as a template.
+### 1. Initialize
+Clone this repo: `git clone <url> feed-template`
 
-### 2. Configure Automation
-This template relies on GitHub Actions to receive content.
+### 2. Configure Secrets
+To enable the automated deployment pipeline, you must add a Secret to your GitHub Repository:
+- **Name**: `PAT`
+- **Value**: A Personal Access Token (Classic) with `repo` scope.
 
-1.  **Generate a Personal Access Token (PAT)**:
-    - Go to GitHub Settings > Developer Settings > Personal Access Tokens > Tokens (Classic).
-    - Generate new token with `repo` scope.
-    - **Important**: Go to your Repository Settings > Secrets > Actions. Add a new secret named `PAT` with this token value. This is required for the automation to trigger a deployment.
+### 3. Webhook Setup
+Configure your CMS to send a `POST` request to `https://api.github.com/repos/[OWNER]/[REPO]/dispatches`.
+- **Event Type**: `publish_content`
+- **Payload**: `{ "data": [ ...editions... ] }`
 
-2.  **Configure CMS Webhook**:
-    - **URL**: `https://api.github.com/repos/[YOUR_USENAME]/[REPO_NAME]/dispatches`
-    - **Method**: `POST`
-    - **Headers**:
-        - `Accept`: `application/vnd.github.v3+json`
-        - `Authorization`: `Bearer YOUR_GITHUB_PAT`
-    - **Body (JSON)**:
-        ```json
-        {
-          "event_type": "publish_content",
-          "client_payload": {
-            "success": true,
-            "data": [
-               { "status": "completed", "output": { ...DailyEdition JSON... } }
-            ]
-          }
-        }
-        ```
-
-### 3. Personalization
-- Update `index.html` title.
-- Update `App.tsx` branding (Logo, Text).
-- Update `manifest.json` for PWA colors.
-
-## Run Locally
-
+## Development
 ```bash
 npm install
 npm run dev
 ```
-
-Since the data folder is initially empty, the app will show an empty state until you run the automation or manually add a file to `public/_data/`.
