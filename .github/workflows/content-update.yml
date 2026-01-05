@@ -1,0 +1,37 @@
+name: Content Update
+
+on:
+  repository_dispatch:
+    types: [publish_content]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Save Client Payload
+        run: |
+          echo '${{ toJson(github.event.client_payload) }}' > payload.json
+        # Notes: We use single quotes to avoid shell expansion issues with JSON.
+        # This writes the entire JSON payload sent by the webhook to 'payload.json'
+
+      - name: Process Content
+        run: node scripts/process-payload.js payload.json
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Auto-update content from CMS"
+          file_pattern: 'public/_data/*.json'
+          token: ${{ secrets.PAT }}

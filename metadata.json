@@ -1,0 +1,5 @@
+{
+  "name": "Daily Pulse - Curated AI Feed",
+  "description": "A minimalist, visually engaging daily article feed curated by AI. Automatically generates summaries and hero images using Gemini.",
+  "requestFramePermissions": []
+}

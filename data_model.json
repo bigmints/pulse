@@ -1,0 +1,22 @@
+{
+    "id": "string (unique identifier, e.g., 'ed-2025-12-27')",
+    "date": "string (ISO 8601 date, e.g., '2025-12-27T00:00:00.000Z')",
+    "title": "string (Main title of the edition, max 60 chars)",
+    "cover": {
+        "title": "string (Optional: Title for the intro slide, max 40 chars)",
+        "summary": "string (Required: Summary text for the intro slide, max 180 chars recommended)",
+        "imageUrl": "string (Optional: Background image URL for the intro slide)"
+    },
+    "articles": [
+        {
+            "id": "string (unique article id)",
+            "url": "string (external link to the full article)",
+            "title": "string (Headline, max 80 chars)",
+            "shortDescription": "string (Brief teaser, max 120 chars)",
+            "fullSummary": "string (Detailed summary of the article, max 400 chars)",
+            "imageUrl": "string (URL to the article image)",
+            "date": "string (ISO 8601 date of the article)",
+            "category": "string (e.g., 'AI Engineering', 'Product Design')"
+        }
+    ]
+}
