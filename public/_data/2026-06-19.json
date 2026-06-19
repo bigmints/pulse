@@ -1,0 +1,27 @@
+{
+  "id": "ed-2026-06-19",
+  "date": "2026-06-19T00:00:00.000Z",
+  "title": "Agentic Coding & The Future of Work",
+  "articles": [
+    {
+      "id": "art-antigravity-2026",
+      "url": "https://example.com/antigravity-ai",
+      "title": "Antigravity AI Revolutionizes Pair Programming",
+      "shortDescription": "A new class of autonomous AI coding assistants changes how software is designed, written, and verified.",
+      "fullSummary": "Google DeepMind's team working on Advanced Agentic Coding has introduced Antigravity, a highly specialized, autonomous pair-programming assistant. Unlike standard LLMs that generate code snippets, Antigravity can understand workspace structures, plan multi-file architectural changes, execute terminal commands, and verify its edits autonomously. Early trials show a 60% increase in developer productivity and a massive drop in bug rates.",
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T08:00:00.000Z",
+      "category": "Technology"
+    },
+    {
+      "id": "art-future-ui-2026",
+      "url": "https://example.com/future-ui-trends",
+      "title": "The Rise of Micro-Animations in Premium Web Apps",
+      "shortDescription": "Why modern interfaces are opting for fluid, motion-driven feedback over static layouts.",
+      "fullSummary": "Modern web development is undergoing a shift toward high-fidelity, motion-infused user experiences. Developers are incorporating subtle, context-aware micro-animations and smooth page transition APIs to build interfaces that feel dynamic and alive. These design systems enhance usability by guiding user focus and creating a premium brand perception.",
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T09:00:00.000Z",
+      "category": "Design"
+    }
+  ]
+}

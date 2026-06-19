@@ -1,0 +1,37 @@
+{
+  "id": "ed-2024-12-18",
+  "date": "2024-12-18T00:00:00.000Z",
+  "title": "Material Science & Manufacturing",
+  "articles": [
+    {
+      "id": "art-graphene-2018",
+      "url": "https://example.com/graphene-applications",
+      "title": "Mass Production of Graphene Enables New Applications",
+      "shortDescription": "Scalable manufacturing process makes wonder material accessible for commercial use.",
+      "fullSummary": "Engineers have developed a cost-effective method to mass-produce graphene, the ultra-strong, lightweight material that's been called a \"wonder material\" since its discovery. The breakthrough enables commercial applications previously limited by high production costs. Graphene-based products now entering the market include flexible touchscreens, ultra-fast computer chips, water filtration systems that desalinate seawater efficiently, and composite materials for aerospace that are stronger than steel yet lighter than aluminum.",
+      "imageUrl": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-18T00:00:00.000Z",
+      "category": "Materials"
+    },
+    {
+      "id": "art-3d-printing-2018",
+      "url": "https://example.com/metal-3d-printing",
+      "title": "3D-Printed Metal Parts Transform Aerospace Manufacturing",
+      "shortDescription": "Additive manufacturing reduces aircraft production time by 50% while cutting costs.",
+      "fullSummary": "Advanced 3D printing techniques for metal parts are revolutionizing aerospace manufacturing, reducing production time by 50% and costs by 30%. The technology allows engineers to create complex geometries impossible with traditional machining, resulting in lighter, stronger components. Major aircraft manufacturers are now printing entire jet engine components, landing gear, and structural elements. The technology also enables mass customization and on-demand spare parts production, potentially transforming global supply chains.",
+      "imageUrl": "https://images.unsplash.com/photo-1565191999001-551c187427bb?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-18T01:00:00.000Z",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "art-self-healing-2018",
+      "url": "https://example.com/self-healing-materials",
+      "title": "Self-Healing Materials Extend Infrastructure Lifespan",
+      "shortDescription": "Concrete and asphalt that repair their own cracks could save billions in maintenance.",
+      "fullSummary": "Scientists have developed self-healing concrete and asphalt embedded with bacteria or capsules containing healing agents that activate when cracks form. When damage occurs, these materials seal themselves, extending infrastructure lifespan dramatically. Cities piloting self-healing roads report 40% reductions in maintenance costs and longer-lasting surfaces. This innovation could save billions globally in infrastructure maintenance and reduce the environmental impact of constant repairs and replacement of roads, bridges, and buildings.",
+      "imageUrl": "https://images.unsplash.com/photo-1590856029620-23a0a7882d58?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-18T02:00:00.000Z",
+      "category": "Infrastructure"
+    }
+  ]
+}

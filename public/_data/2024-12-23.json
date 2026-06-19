@@ -1,0 +1,37 @@
+{
+  "id": "ed-2024-12-23",
+  "date": "2024-12-23T00:00:00.000Z",
+  "title": "Sustainability & Future Cities",
+  "articles": [
+    {
+      "id": "art-vertical-farm-2023",
+      "url": "https://example.com/vertical-farming",
+      "title": "World's Largest Vertical Farm Opens in Singapore",
+      "shortDescription": "Revolutionary 50-story agricultural tower produces food for 100,000 people using 95% less water.",
+      "fullSummary": "Singapore has unveiled the world's largest vertical farm, a 50-story tower that uses advanced hydroponics and AI-controlled environments to grow crops year-round. The facility produces enough fresh vegetables, herbs, and fruits to feed 100,000 people while using 95% less water than traditional farming and zero pesticides. This innovation addresses food security challenges in densely populated urban areas and reduces the carbon footprint of food transportation.",
+      "imageUrl": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-23T00:00:00.000Z",
+      "category": "Agriculture"
+    },
+    {
+      "id": "art-carbon-capture-2023",
+      "url": "https://example.com/carbon-capture",
+      "title": "Breakthrough Carbon Capture Technology Removes CO2 at Scale",
+      "shortDescription": "New material captures carbon dioxide 10x more efficiently than existing methods.",
+      "fullSummary": "Researchers have developed a revolutionary carbon capture material that removes CO2 from the atmosphere 10 times more efficiently than current technologies. The porous crystalline structure can be manufactured at scale using abundant materials and operates at ambient temperature, making it economically viable for widespread deployment. If scaled globally, this technology could remove billions of tons of CO2 annually, playing a crucial role in combating climate change.",
+      "imageUrl": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-23T01:00:00.000Z",
+      "category": "Environment"
+    },
+    {
+      "id": "art-smart-city-2023",
+      "url": "https://example.com/smart-city",
+      "title": "Copenhagen Becomes First Carbon-Neutral Capital",
+      "shortDescription": "Denmark's capital achieves net-zero emissions through innovative urban planning and renewable energy.",
+      "fullSummary": "Copenhagen has officially become the world's first carbon-neutral capital city, achieving net-zero greenhouse gas emissions through a combination of renewable energy, sustainable transportation, and green architecture. The city now generates more than 100% of its electricity from wind and solar, operates the world's most extensive bike-sharing network, and has transformed urban spaces with green roofs and parks. This milestone serves as a blueprint for other cities worldwide.",
+      "imageUrl": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-23T02:00:00.000Z",
+      "category": "Urban Planning"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ed-2024-12-22",
+  "date": "2024-12-22T00:00:00.000Z",
+  "title": "Space Exploration & Cosmic Discoveries",
+  "articles": [
+    {
+      "id": "art-mars-colony-2022",
+      "url": "https://example.com/mars-simulation",
+      "title": "Mars Colony Simulation Completes Year-Long Mission",
+      "shortDescription": "Crew of 6 emerges from isolated habitat after successfully testing life support systems for Mars.",
+      "fullSummary": "A crew of six researchers has completed a year-long Mars simulation in an isolated habitat in Iceland, successfully testing life support systems, food production, and psychological resilience needed for future Mars missions. The team grew 80% of their food, recycled 95% of their water, and maintained mental health through carefully designed recreational activities. The data collected will inform NASA and SpaceX's plans for establishing permanent human settlements on Mars by the 2040s.",
+      "imageUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-22T00:00:00.000Z",
+      "category": "Space"
+    },
+    {
+      "id": "art-exoplanet-2022",
+      "url": "https://example.com/exoplanet-discovery",
+      "title": "James Webb Telescope Detects Signs of Life on Exoplanet",
+      "shortDescription": "Atmospheric analysis reveals biosignature gases on planet 120 light-years away.",
+      "fullSummary": "The James Webb Space Telescope has detected potential biosignature gases, including methane and oxygen, in the atmosphere of an exoplanet 120 light-years from Earth. The planet, named K2-18b, exists in the habitable zone of its star and has conditions that could support liquid water. While not definitive proof of life, this discovery represents the strongest evidence yet of biological activity beyond our solar system and marks a historic moment in the search for extraterrestrial life.",
+      "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-22T01:00:00.000Z",
+      "category": "Astronomy"
+    },
+    {
+      "id": "art-moon-base-2022",
+      "url": "https://example.com/lunar-base",
+      "title": "International Lunar Base Construction Begins",
+      "shortDescription": "First modules arrive on the Moon's south pole, marking humanity's return to lunar surface.",
+      "fullSummary": "An international consortium has successfully landed the first modules of a permanent lunar base at the Moon's south pole, marking humanity's return to the lunar surface after 50 years. The base will serve as a research station, mining facility for extracting water ice, and staging point for deep-space missions. Solar panels and nuclear reactors will provide power, while 3D printers will manufacture additional structures using lunar regolith. The first crew of astronauts is scheduled to arrive in 2026.",
+      "imageUrl": "https://images.unsplash.com/photo-1610296669228-602fa827fc1f?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-22T02:00:00.000Z",
+      "category": "Space Exploration"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ed-2024-12-19",
+  "date": "2024-12-19T00:00:00.000Z",
+  "title": "Renewable Energy & Climate Action",
+  "articles": [
+    {
+      "id": "art-solar-efficiency-2019",
+      "url": "https://example.com/perovskite-solar",
+      "title": "Perovskite Solar Cells Achieve 40% Efficiency",
+      "shortDescription": "New material doubles the efficiency of traditional silicon solar panels at half the cost.",
+      "fullSummary": "Scientists have developed perovskite solar cells that convert sunlight to electricity at 40% efficiency—double that of conventional silicon panels. The breakthrough uses a novel tandem structure that captures a broader spectrum of light. Crucially, these cells can be manufactured using simple printing techniques at a fraction of the cost of silicon panels. Mass production is expected to begin next year, potentially accelerating the global transition to renewable energy and making solar power economically viable in regions previously dependent on fossil fuels.",
+      "imageUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-19T00:00:00.000Z",
+      "category": "Renewable Energy"
+    },
+    {
+      "id": "art-wind-turbine-2019",
+      "url": "https://example.com/offshore-wind",
+      "title": "Floating Wind Farms Generate Power in Deep Waters",
+      "shortDescription": "Innovative turbines anchored to the seabed unlock vast offshore wind resources.",
+      "fullSummary": "A new generation of floating wind turbines has begun operating in waters too deep for traditional fixed-bottom installations, unlocking enormous offshore wind potential. These floating platforms, secured with mooring systems, can be deployed in depths up to 1,000 meters where winds are stronger and more consistent. The world's largest floating wind farm, now operational off the coast of Scotland, generates enough electricity for 500,000 homes. This technology could provide clean energy to coastal nations worldwide, including those without shallow continental shelves.",
+      "imageUrl": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-19T01:00:00.000Z",
+      "category": "Wind Energy"
+    },
+    {
+      "id": "art-battery-storage-2019",
+      "url": "https://example.com/solid-state-battery",
+      "title": "Solid-State Batteries Revolutionize Energy Storage",
+      "shortDescription": "New battery technology offers triple the capacity and charges in 10 minutes.",
+      "fullSummary": "A breakthrough in solid-state battery technology promises to revolutionize everything from electric vehicles to grid-scale energy storage. These batteries use solid ceramic electrolytes instead of liquid, offering triple the energy density of lithium-ion batteries, faster charging (10 minutes for a full charge), and improved safety with no fire risk. Automotive manufacturers are racing to integrate the technology, which could enable electric vehicles with 1,000-mile ranges. For renewable energy, these batteries solve the intermittency problem, storing solar and wind power for on-demand use.",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-19T02:00:00.000Z",
+      "category": "Energy Storage"
+    }
+  ]
+}

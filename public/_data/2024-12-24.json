@@ -1,0 +1,47 @@
+{
+  "id": "ed-2024-12-24",
+  "date": "2024-12-24T00:00:00.000Z",
+  "title": "Innovation & Discovery",
+  "articles": [
+    {
+      "id": "art-quantum-2024",
+      "url": "https://example.com/quantum-breakthrough",
+      "title": "Quantum Computing Reaches New Milestone",
+      "shortDescription": "Scientists achieve quantum supremacy with a 1000-qubit processor, opening doors to revolutionary applications.",
+      "fullSummary": "A team of researchers has successfully demonstrated quantum supremacy using a 1000-qubit quantum processor, marking a significant breakthrough in quantum computing. This achievement opens up possibilities for solving complex problems in cryptography, drug discovery, and climate modeling that are beyond the reach of classical computers. The processor maintained quantum coherence for unprecedented durations, a key challenge in the field.",
+      "imageUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-24T00:00:00.000Z",
+      "category": "Technology"
+    },
+    {
+      "id": "art-ocean-2024",
+      "url": "https://example.com/ocean-discovery",
+      "title": "Deep-Sea Expedition Discovers New Marine Species",
+      "shortDescription": "Underwater exploration reveals dozens of previously unknown creatures in the Mariana Trench.",
+      "fullSummary": "A deep-sea expedition to the Mariana Trench has uncovered 47 new species of marine life, including bioluminescent jellyfish and unique crustaceans adapted to extreme pressure. This discovery highlights the vast biodiversity in Earth's unexplored ocean depths and provides insights into how life adapts to extreme environments. Scientists believe these findings could have implications for astrobiology and the search for life beyond Earth.",
+      "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-24T01:00:00.000Z",
+      "category": "Science"
+    },
+    {
+      "id": "art-fusion-2024",
+      "url": "https://example.com/fusion-energy",
+      "title": "Fusion Reactor Sustains Record Energy Output",
+      "shortDescription": "Experimental fusion reactor maintains plasma for 5 minutes, a crucial step toward clean energy.",
+      "fullSummary": "An experimental fusion reactor has sustained a plasma reaction for a record-breaking 5 minutes at temperatures exceeding 100 million degrees Celsius. This achievement brings scientists closer to realizing practical fusion energy, which could provide virtually limitless clean power. The breakthrough addresses one of the key challenges in fusion: maintaining stable plasma conditions long enough to generate net energy gain.",
+      "imageUrl": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-24T02:00:00.000Z",
+      "category": "Energy"
+    },
+    {
+      "id": "art-ai-medicine-2024",
+      "url": "https://example.com/ai-diagnosis",
+      "title": "AI System Achieves 99% Accuracy in Early Cancer Detection",
+      "shortDescription": "Machine learning algorithm outperforms human doctors in identifying early-stage cancers from medical imaging.",
+      "fullSummary": "A new AI-powered diagnostic system has demonstrated 99% accuracy in detecting early-stage cancers across multiple organ types using CT scans and MRI images. The system, trained on millions of medical images, can identify subtle patterns that human radiologists might miss. Early clinical trials show the AI reduces false negatives by 40% and could revolutionize preventive healthcare by catching cancers at more treatable stages.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-24T03:00:00.000Z",
+      "category": "Healthcare"
+    }
+  ]
+}

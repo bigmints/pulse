@@ -24,7 +24,7 @@ const mockEditions = [
 ];
 
 // Get data directory path
-const dataDir = join(__dirname, '..', '_data');
+const dataDir = join(__dirname, '..', 'public', '_data');
 
 // Create _data directory if it doesn't exist
 try {
@@ -44,4 +44,12 @@ mockEditions.forEach(edition => {
   console.log(`✓ Created ${filename}`);
 });
 
-console.log(`\n✅ Migration complete! Created ${mockEditions.length} JSON file(s) in _data/`);
+// Create index of dates (sorted descending, newest first)
+const dates = mockEditions
+  .map(edition => edition.date.split('T')[0])
+  .sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
+
+writeFileSync(join(dataDir, 'index.json'), JSON.stringify(dates, null, 2), 'utf8');
+console.log(`✓ Created index.json with ${dates.length} dates`);
+
+console.log(`\n✅ Migration complete! Created ${mockEditions.length} JSON file(s) and index.json in public/_data/`);

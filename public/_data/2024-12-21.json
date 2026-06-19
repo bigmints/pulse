@@ -1,0 +1,37 @@
+{
+  "id": "ed-2024-12-21",
+  "date": "2024-12-21T00:00:00.000Z",
+  "title": "Artificial Intelligence & Robotics",
+  "articles": [
+    {
+      "id": "art-humanoid-robot-2021",
+      "url": "https://example.com/humanoid-robots",
+      "title": "Humanoid Robots Begin Working in Hospitals",
+      "shortDescription": "AI-powered robots assist nurses with patient care, reducing healthcare worker burnout.",
+      "fullSummary": "Advanced humanoid robots equipped with AI have begun working alongside healthcare professionals in hospitals across Japan and Germany. These robots can perform routine tasks like delivering medications, monitoring vital signs, and assisting with patient mobility, allowing nurses to focus on more complex care. Early results show a 30% reduction in nurse burnout and improved patient satisfaction. The robots learn from interactions and can communicate in multiple languages, making them suitable for diverse healthcare settings.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-21T00:00:00.000Z",
+      "category": "Robotics"
+    },
+    {
+      "id": "art-protein-folding-2021",
+      "url": "https://example.com/protein-design",
+      "title": "AI Designs Novel Proteins for Drug Development",
+      "shortDescription": "Machine learning system creates proteins never seen in nature, accelerating pharmaceutical research.",
+      "fullSummary": "An AI system has successfully designed thousands of novel proteins with specific functions, revolutionizing drug development and biotechnology. These synthetic proteins, never before seen in nature, can be tailored to target specific diseases, break down pollutants, or catalyze industrial processes. The AI reduced the protein design process from years to days, and early trials show promising results for treating rare genetic disorders. This breakthrough could democratize drug development and make personalized medicine more accessible.",
+      "imageUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-21T01:00:00.000Z",
+      "category": "Biotechnology"
+    },
+    {
+      "id": "art-autonomous-vehicles-2021",
+      "url": "https://example.com/self-driving",
+      "title": "Autonomous Vehicles Reduce Traffic Deaths by 90%",
+      "shortDescription": "Cities with widespread self-driving car adoption see dramatic improvements in road safety.",
+      "fullSummary": "Cities that have fully integrated autonomous vehicles into their transportation systems have seen traffic fatalities drop by 90%, according to a comprehensive five-year study. The AI-driven vehicles communicate with each other and traffic infrastructure to optimize traffic flow, eliminate drunk driving, and prevent human error—the leading cause of accidents. Additionally, commute times have decreased by 35%, and air quality has improved due to optimized driving patterns and the transition to electric autonomous fleets.",
+      "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=1200",
+      "date": "2024-12-21T02:00:00.000Z",
+      "category": "Transportation"
+    }
+  ]
+}
