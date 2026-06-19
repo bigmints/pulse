@@ -4,6 +4,16 @@
   "title": "Daily Pulse • Friday Digest",
   "articles": [
     {
+      "id": "art-gmisuaw4x",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "title": "nesquena/hermes-webui - Hermes Web UI hits 14.7K stars",
+      "shortDescription": "Open-source Hermes Web UI with full CLI parity, no build step, Python + vanilla JS",
+      "fullSummary": "Hermes WebUI by nesquena: lightweight, dark-themed, three-panel web app. No build step, no framework, no bundler. Just Python and vanilla JS. 14.7K GitHub stars.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T13:45:25.420Z",
+      "category": "linkedin"
+    },
+    {
       "id": "art-umfs7zi31",
       "url": "https://example.com/automation-live",
       "title": "Full Automation Live",
