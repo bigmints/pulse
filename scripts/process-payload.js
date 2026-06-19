@@ -27,15 +27,20 @@ function processPayload() {
         const rawData = fs.readFileSync(payloadPath, 'utf8');
         const payload = JSON.parse(rawData);
 
+        if (!payload || typeof payload !== 'object') {
+            console.warn('Payload is empty or null. Exiting gracefully.');
+            process.exit(0);
+        }
+
         // Normalize data to array
         let items = [];
-        if (Array.isArray(payload.data)) {
+        if (payload.data && Array.isArray(payload.data)) {
             items = payload.data;
         } else if (payload.data && typeof payload.data === 'object') {
             items = [payload.data];
         } else {
             console.error('Invalid payload: "data" is missing or invalid type');
-            console.error('Received Payload Keys:', Object.keys(payload));
+            console.error('Received Payload Keys:', payload ? Object.keys(payload) : 'none');
             process.exit(1);
         }
 
