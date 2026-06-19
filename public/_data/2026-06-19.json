@@ -4,6 +4,16 @@
   "title": "Daily Pulse • Friday Digest",
   "articles": [
     {
+      "id": "art-umfs7zi31",
+      "url": "https://example.com/automation-live",
+      "title": "Full Automation Live",
+      "shortDescription": "Pulse is now 100% automated.",
+      "fullSummary": "We implemented an explicit trigger at the end of the Content Update workflow so that it rebuilds the site immediately upon content updates.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T08:27:05.040Z",
+      "category": "Hermes"
+    },
+    {
       "id": "art-8lqtp38lk",
       "url": "https://example.com/pat-check",
       "title": "Post-PAT Verification",
