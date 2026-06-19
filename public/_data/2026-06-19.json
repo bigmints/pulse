@@ -4,6 +4,16 @@
   "title": "Daily Pulse • Friday Digest",
   "articles": [
     {
+      "id": "art-zvnog0j4r",
+      "url": "https://example.com/hermes-live",
+      "title": "Hermes Integration Live",
+      "shortDescription": "Hermes and Pulse are now fully integrated without key requirements.",
+      "fullSummary": "Hermes is successfully transmitting flat curated articles to the repository dispatch endpoint, which maps them into structured daily editions automatically.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T07:44:37.533Z",
+      "category": "Hermes"
+    },
+    {
       "id": "art-t4t02yjv1",
       "url": "https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/",
       "title": "Telegram ban in India sparks a rush to VPNs, rival apps",
