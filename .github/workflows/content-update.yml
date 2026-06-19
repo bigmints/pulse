@@ -30,8 +30,16 @@ jobs:
         run: node scripts/process-payload.js payload.json
 
       - name: Commit and Push Changes
+        id: auto-commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Auto-update content from CMS"
           file_pattern: 'public/_data/*.json'
           token: ${{ secrets.PAT }}
+
+      - name: Trigger Build and Deploy Workflow
+        if: steps.auto-commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PAT || github.token }}
+        run: |
+          gh workflow run deploy.yml --ref main
