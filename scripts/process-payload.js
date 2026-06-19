@@ -32,50 +32,105 @@ function processPayload() {
             process.exit(0);
         }
 
-        // Normalize data to array
-        let items = [];
-        if (payload.data && Array.isArray(payload.data)) {
-            items = payload.data;
-        } else if (payload.data && typeof payload.data === 'object') {
-            items = [payload.data];
+        // Normalize data to array of editions
+        let editions = [];
+
+        if (payload.data) {
+            // Case 1: Original edition-based payload
+            let items = [];
+            if (Array.isArray(payload.data)) {
+                items = payload.data;
+            } else if (typeof payload.data === 'object') {
+                items = [payload.data];
+            }
+
+            items.forEach(item => {
+                if (item.status && item.status !== 'completed') return;
+                if (!item.output) return;
+                editions.push(item.output);
+            });
+        } else if (payload.title && (payload.content || payload.description)) {
+            // Case 2: Flat article-based payload from Hermes
+            const todayStr = new Date().toISOString().split('T')[0];
+            const editionFile = path.join(PUBLIC_DATA_DIR, `${todayStr}.json`);
+            
+            let existingEdition = null;
+            if (fs.existsSync(editionFile)) {
+                try {
+                    existingEdition = JSON.parse(fs.readFileSync(editionFile, 'utf8'));
+                } catch (e) {
+                    console.error('Failed to parse existing edition file:', e);
+                }
+            }
+
+            const category = payload.source || 'Technology';
+            
+            // Choose Unsplash image based on category
+            const THEME_IMAGES = {
+              technology: [
+                'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
+                'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1200'
+              ],
+              science: [
+                'https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&q=80&w=1200'
+              ],
+              default: [
+                'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200'
+              ]
+            };
+            const catLower = category.toLowerCase();
+            const imagesList = THEME_IMAGES[catLower] || THEME_IMAGES.default;
+            const imageUrl = imagesList[Math.floor(Math.random() * imagesList.length)];
+
+            // Extract short description from description or start of content
+            let shortDescription = payload.description || '';
+            if (!shortDescription && payload.content) {
+                shortDescription = payload.content.substring(0, 130);
+                if (payload.content.length > 130) shortDescription += '...';
+            }
+
+            const newArticle = {
+                id: `art-${Math.random().toString(36).substring(2, 11)}`,
+                url: payload.source_url || 'https://example.com',
+                title: payload.title,
+                shortDescription,
+                fullSummary: payload.content || payload.description || '',
+                imageUrl,
+                date: new Date().toISOString(),
+                category
+            };
+
+            if (existingEdition && Array.isArray(existingEdition.articles)) {
+                // Remove duplicates if the article is sent again
+                existingEdition.articles = existingEdition.articles.filter(a => a.url !== newArticle.url);
+                existingEdition.articles = [newArticle, ...existingEdition.articles];
+                editions.push(existingEdition);
+            } else {
+                const options = { weekday: 'long' };
+                const dayName = new Intl.DateTimeFormat('en-US', options).format(new Date());
+                const newEdition = {
+                    id: `ed-${todayStr}`,
+                    date: new Date().toISOString(),
+                    title: `Daily Pulse • ${dayName} Digest`,
+                    articles: [newArticle]
+                };
+                editions.push(newEdition);
+            }
         } else {
-            console.error('Invalid payload: "data" is missing or invalid type');
+            console.error('Invalid payload: Unsupported format.');
             console.error('Received Payload Keys:', payload ? Object.keys(payload) : 'none');
             process.exit(1);
         }
 
         let processedCount = 0;
-        let errors = 0;
 
-        // 3. Iterate through editions
-        items.forEach(item => {
-            // Only process completed items (check both status and existence of output)
-            // Note: Single payload might not have 'status' field at root if it's just the object?
-            // The log showed: "data": { "createdAt": ..., "id": ..., "inputs": ..., "output": ... }
-            // It didn't show "status" in the preview, but the user's previous JSON example had it.
-            // Let's check if output exists.
-
-            if (item.status && item.status !== 'completed') {
-                return;
-            }
-
-            // If output is missing, skip
-            if (!item.output) {
-                console.warn(`Skipping item ${item.id}: missing output`);
-                return;
-            }
-
-            const edition = item.output;
-
-            // Validate Edition Structure
+        editions.forEach(edition => {
             if (!edition || !edition.date || !Array.isArray(edition.articles)) {
-                console.warn(`Skipping invalid edition item: ${item.id}`, edition);
-                errors++;
                 return;
             }
 
-            // 4. Write Edition File
-            const filename = `${edition.date}.json`;
+            const dateStr = edition.date.split('T')[0]; // Extract YYYY-MM-DD
+            const filename = `${dateStr}.json`;
             const filePath = path.join(PUBLIC_DATA_DIR, filename);
 
             // Ensure directory exists
