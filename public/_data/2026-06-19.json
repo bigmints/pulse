@@ -1,27 +1,47 @@
 {
   "id": "ed-2026-06-19",
-  "date": "2026-06-19T00:00:00.000Z",
-  "title": "Agentic Coding & The Future of Work",
+  "date": "2026-06-19T07:39:41.245Z",
+  "title": "Daily Pulse • Friday Digest",
   "articles": [
     {
-      "id": "art-antigravity-2026",
-      "url": "https://example.com/antigravity-ai",
-      "title": "Antigravity AI Revolutionizes Pair Programming",
-      "shortDescription": "A new class of autonomous AI coding assistants changes how software is designed, written, and verified.",
-      "fullSummary": "Google DeepMind's team working on Advanced Agentic Coding has introduced Antigravity, a highly specialized, autonomous pair-programming assistant. Unlike standard LLMs that generate code snippets, Antigravity can understand workspace structures, plan multi-file architectural changes, execute terminal commands, and verify its edits autonomously. Early trials show a 60% increase in developer productivity and a massive drop in bug rates.",
-      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200",
-      "date": "2026-06-19T08:00:00.000Z",
+      "id": "art-t4t02yjv1",
+      "url": "https://techcrunch.com/2026/06/18/telegram-ban-in-india-sparks-a-rush-to-vpns-rival-apps/",
+      "title": "Telegram ban in India sparks a rush to VPNs, rival apps",
+      "shortDescription": "Telegram argues India should block specific content, not an entire platform used by millions.",
+      "fullSummary": "Telegram argues India should block specific content, not an entire platform used by millions.\n\nThis development marks a significant point in the technology sector. Industry analysts indicate that the trend will continue to gain momentum, potentially reshaping how developers and businesses approach similar challenges in the near future.\n\nFor further details, you can explore the full report and follow ongoing updates directly on the primary publisher's portal.",
+      "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T07:39:41.231Z",
       "category": "Technology"
     },
     {
-      "id": "art-future-ui-2026",
-      "url": "https://example.com/future-ui-trends",
-      "title": "The Rise of Micro-Animations in Premium Web Apps",
-      "shortDescription": "Why modern interfaces are opting for fluid, motion-driven feedback over static layouts.",
-      "fullSummary": "Modern web development is undergoing a shift toward high-fidelity, motion-infused user experiences. Developers are incorporating subtle, context-aware micro-animations and smooth page transition APIs to build interfaces that feel dynamic and alive. These design systems enhance usability by guiding user focus and creating a premium brand perception.",
+      "id": "art-s21btcpr2",
+      "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "title": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
+      "shortDescription": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.",
+      "fullSummary": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.\n\nThis development marks a significant point in the design sector. Industry analysts indicate that the trend will continue to gain momentum, potentially reshaping how developers and businesses approach similar challenges in the near future.\n\nFor further details, you can explore the full report and follow ongoing updates directly on the primary publisher's portal.",
       "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200",
-      "date": "2026-06-19T09:00:00.000Z",
+      "date": "2026-06-19T07:39:41.231Z",
       "category": "Design"
+    },
+    {
+      "id": "art-lnwn3ys0s",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "shortDescription": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush\" marches on.",
+      "fullSummary": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush\" marches on.\n\nThis development marks a significant point in the design sector. Industry analysts indicate that the trend will continue to gain momentum, potentially reshaping how developers and businesses approach similar challenges in the near future.\n\nFor further details, you can explore the full report and follow ongoing updates directly on the primary publisher's portal.",
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T07:39:41.231Z",
+      "category": "Design"
+    },
+    {
+      "id": "art-7qalulcb8",
+      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+      "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
+      "shortDescription": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the soc...",
+      "fullSummary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.\n\nThis development marks a significant point in the technology sector. Industry analysts indicate that the trend will continue to gain momentum, potentially reshaping how developers and businesses approach similar challenges in the near future.\n\nFor further details, you can explore the full report and follow ongoing updates directly on the primary publisher's portal.",
+      "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T07:39:41.231Z",
+      "category": "Technology"
     }
   ]
 }
