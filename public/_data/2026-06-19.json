@@ -4,6 +4,16 @@
   "title": "Daily Pulse • Friday Digest",
   "articles": [
     {
+      "id": "art-8lqtp38lk",
+      "url": "https://example.com/pat-check",
+      "title": "Post-PAT Verification",
+      "shortDescription": "Testing that the PAT secret triggers Build and Deploy.",
+      "fullSummary": "Now that secrets.PAT is defined, any push from Content Update should trigger the Build and Deploy workflow.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T08:25:40.501Z",
+      "category": "Verification"
+    },
+    {
       "id": "art-h0323um1f",
       "url": "https://jetbrains.com/mellum/",
       "title": "JetBrains Mellum2 - 12B MoE Coding LLM",
