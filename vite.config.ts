@@ -6,7 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/',
+    base: '/pulse/',
     publicDir: 'public', // Default public assets
     server: {
       port: 3000,
@@ -25,8 +25,8 @@ export default defineConfig(({ mode }) => {
           background_color: '#ffffff',
           display: 'standalone',
           orientation: 'portrait',
-          scope: '/',
-          start_url: '/',
+          scope: '/pulse/',
+          start_url: '/pulse/',
           icons: [
             {
               src: 'pwa-192x192.png',
