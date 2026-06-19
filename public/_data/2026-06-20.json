@@ -1,0 +1,17 @@
+{
+  "articles": [
+    {
+      "category": "Testing",
+      "date": "2026-06-20T10:00:00.000Z",
+      "fullSummary": "The dispatch webhook was successfully triggered. The payload has been processed and saved.",
+      "id": "art-hermes-1",
+      "imageUrl": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&q=80&w=1200",
+      "shortDescription": "Verifying that the dispatch webhook can be triggered using the user OAuth token.",
+      "title": "Hermes Webhook Curation Triggered",
+      "url": "https://example.com/hermes"
+    }
+  ],
+  "date": "2026-06-20",
+  "id": "ed-2026-06-20",
+  "title": "Hermes Dispatch Test"
+}
