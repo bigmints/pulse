@@ -4,6 +4,16 @@
   "title": "Daily Pulse • Friday Digest",
   "articles": [
     {
+      "id": "art-h0323um1f",
+      "url": "https://jetbrains.com/mellum/",
+      "title": "JetBrains Mellum2 - 12B MoE Coding LLM",
+      "shortDescription": "JetBrains released Mellum2, a 12B MoE model with 2.5B active params, Apache 2.0",
+      "fullSummary": "Mellum2: 12B MoE, 2.5B active, 10.6T tokens, RLVR, 128K context, Apache 2.0. GGUF ready.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-19T08:08:46.588Z",
+      "category": "linkedin"
+    },
+    {
       "id": "art-zvnog0j4r",
       "url": "https://example.com/hermes-live",
       "title": "Hermes Integration Live",
