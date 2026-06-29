@@ -1,0 +1,17 @@
+{
+  "id": "ed-2026-06-29",
+  "date": "2026-06-29T17:50:57.190Z",
+  "title": "Daily Pulse • Monday Digest",
+  "articles": [
+    {
+      "id": "art-gafj8zehr",
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "title": "NVIDIA Nemotron 3.5 ASR — 0.6B Open-Source Speech Model",
+      "shortDescription": "NVIDIA dropped Nemotron 3.5 ASR, a 0.6B open-source streaming ASR model with 40+ languages, 80ms latency.",
+      "fullSummary": "NVIDIA released Nemotron 3.5 ASR — 600M param open-source speech recognition for real-time streaming. 40+ languages, 80ms latency, 17x more throughput than Parakeet 1.1B.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "date": "2026-06-29T17:50:57.176Z",
+      "category": "LinkedIn"
+    }
+  ]
+}
